@@ -1,2 +1,2 @@
-const duApi = {};
-export default duApi;
+class DUApi {}
+export default DUApi;

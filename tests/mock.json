@@ -1,0 +1,25 @@
+{
+  "cmdTypes": {
+    "noticeList": 10000,
+    "noticeDetail": 10001,
+    "faq": 10002,
+    "qna": 10003,
+    "terms": 10004,
+    "cert": 10005,
+    "join": 10006,
+    "cancel": 10007
+  },
+  "URL": {
+    "production": {
+      "rest": "productionRest",
+      "dmrs": "productionDmrs"
+    },
+    "development": {
+      "rest": "devRest",
+      "dmrs": "devDmrs"
+    }
+  },
+  "errcode": {
+    "success": 0
+  }
+}
