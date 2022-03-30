@@ -59,9 +59,7 @@ declare namespace duApi {
   }
   export interface RequestHttpData {
     Header: RequestHeader;
-    Body: {
-      [x: string]: string | number | unknown[] | Object;
-    };
+    Body: any;
   }
   export interface ResponseHttpData {
     Header: ResponseHeader;
